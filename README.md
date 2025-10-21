@@ -147,7 +147,8 @@ print("8 exists in tuple:",z)
 
 ```
 ## Output
-![alt text](<Screenshot 2025-10-21 120719.png>)
+
+![alt text](image-1.png)
 
 ## Result
 The given program is successfully executed
