@@ -139,11 +139,18 @@ To write a Python program that checks if the element `'n'` and the element `8` e
 
 ## 🧾 Program
 ```
-x= ('a', 'b', 'c', 'n', 5, 8, 10)
-y = 'n' in x
-z = 8 in x
-print("'n' exists in tuple:",y)
-print("8 exists in tuple:",z)
+my_tuple=('a','b',5,'n',8,'z',10)
+element_n='n'
+if element_n in my_tuple:
+    print(f"Result for '{element_n}': Found! The element '{element_n}' exists in the tuple.")
+else:
+    print(f"Result for '{element_n}': Not element '{element_n}' does not exist in the tuple.")
+
+element_8=8
+if element_8 in my_tuple:
+    print(f"Result for {element_8}: Found! The element {element_8} exists in the tuple.")
+else:
+    print(f"Result for {element_8}: Not found! Th element {element_8} does not exist in the tuple.")
 
 ```
 ## Output
